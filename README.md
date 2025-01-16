@@ -119,8 +119,3 @@ The database consists of the following tables:
 - Distribution of driving license categories.
 - Number of cases per officer.
 - Crimes by month.
-
-## Installation
-
-1. **Clone the Repository**:
-   git clone https://github.com/Pletea-Marinescu-Valentin/police_population_record.git
