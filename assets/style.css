@@ -1,11 +1,9 @@
-/* Resetare stiluri implicite pentru a asigura consistența între browsere */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Setarea fontului de bază */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -13,7 +11,6 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Header */
 header {
     background-color: #333;
     color: #fff;
@@ -74,15 +71,13 @@ a:hover {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-
-/* Formularuri */
 form {
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    max-width: 400px; /* Formulare centrate și mai compacte */
+    max-width: 400px;
 }
 
 form input, form select, form button {
@@ -103,7 +98,6 @@ form button:hover {
     background-color: #555;
 }
 
-/* Mesaje */
 .welcome-message {
     text-align: center;
     margin: 50px auto;
@@ -149,7 +143,6 @@ form button:hover {
     background-color: #0056b3;
 }
 
-/* Tabele */
 table {
     width: 100%;
     margin: 20px 0;
@@ -169,7 +162,6 @@ th {
     background-color: #f4f4f4;
 }
 
-/* Footer */
 footer {
     background-color: #333;
     color: #fff;
