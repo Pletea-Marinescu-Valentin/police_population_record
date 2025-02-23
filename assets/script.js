@@ -1,7 +1,7 @@
-// Confirmare la ștergere
+// Confirm at delete
 const deleteLinks = document.querySelectorAll('a[href*="delete"]');
 
-// Smooth scroll pentru linkurile de navigare
+// Smooth scroll for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
